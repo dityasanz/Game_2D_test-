@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://c8uaea2gfm4kx"]
 
-[ext_resource type="Texture2D" uid="uid://q8qvmf2bexgs" path="res://asset character/lantai-0001.png" id="1_dbls1"]
-[ext_resource type="PackedScene" uid="uid://bhoihflwglhdn" path="res://asset character/character_body_2d.tscn" id="2_33cqm"]
-[ext_resource type="Texture2D" uid="uid://c8t5ukjnoi8ne" path="res://asset character/BG-0001.png" id="2_xwcet"]
+[ext_resource type="Texture2D" uid="uid://q8qvmf2bexgs" path="res://assets/character/lantai-0001.png" id="1_dbls1"]
+[ext_resource type="PackedScene" uid="uid://bhoihflwglhdn" path="res://scene/player.tscn" id="2_33cqm"]
+[ext_resource type="Texture2D" uid="uid://c8t5ukjnoi8ne" path="res://assets/background/BG-0001.png" id="2_xwcet"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_xwcet"]
 
@@ -19,7 +19,7 @@ physics_material_override = SubResource("PhysicsMaterial_xwcet")
 
 [node name="Sprite2D2" type="Sprite2D" parent="lantai" unique_id=846287668]
 texture_filter = 1
-position = Vector2(576.75, 333.25)
+position = Vector2(579.00006, 332)
 scale = Vector2(1.5816326, 1.7697548)
 texture = ExtResource("2_xwcet")
 
@@ -65,6 +65,12 @@ shape = SubResource("RectangleShape2D_33cqm")
 
 [node name="CollisionShape2D7" type="CollisionShape2D" parent="lantai" unique_id=832287477]
 position = Vector2(1003, 436)
+rotation = -3.1415925
+scale = Vector2(19.422884, 14.919277)
+shape = SubResource("RectangleShape2D_33cqm")
+
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="lantai" unique_id=143815290]
+position = Vector2(1001, 503)
 rotation = -3.1415925
 scale = Vector2(19.422884, 14.919277)
 shape = SubResource("RectangleShape2D_33cqm")
