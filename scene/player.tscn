@@ -5,8 +5,13 @@
 [ext_resource type="Texture2D" uid="uid://dsjlu7q6lg1sd" path="res://assets/character/KARAKTER_2D_Run.png" id="2_awagx"]
 [ext_resource type="Texture2D" uid="uid://cn0awro8mnvoh" path="res://assets/character/KARAKTER_2D_Jump.png" id="2_ys8el"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ys8el"]
-size = Vector2(16, 24)
+[sub_resource type="AtlasTexture" id="AtlasTexture_awagx"]
+atlas = ExtResource("2_7j484")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ys8el"]
+atlas = ExtResource("2_7j484")
+region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_v4uc7"]
 atlas = ExtResource("2_ys8el")
@@ -32,16 +37,29 @@ region = Rect2(96, 0, 32, 32)
 atlas = ExtResource("2_awagx")
 region = Rect2(128, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_awagx"]
-atlas = ExtResource("2_7j484")
-region = Rect2(0, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ys8el"]
-atlas = ExtResource("2_7j484")
-region = Rect2(32, 0, 32, 32)
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_jd17k"]
 animations = [{
+"frames": [],
+"loop": true,
+"name": &"Dash",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"Fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_awagx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ys8el")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 3.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_v4uc7")
@@ -69,28 +87,21 @@ animations = [{
 "loop": true,
 "name": &"Run",
 "speed": 8.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_awagx")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ys8el")
-}],
-"loop": true,
-"name": &"default",
-"speed": 2.0
 }]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ys8el"]
+size = Vector2(14, 27)
 
 [node name="player" type="CharacterBody2D" unique_id=1092678323]
 script = ExtResource("1_7j484")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1478896587]
-position = Vector2(0, 2)
-shape = SubResource("RectangleShape2D_ys8el")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1499825580]
 texture_filter = 1
 position = Vector2(-4, 0)
 sprite_frames = SubResource("SpriteFrames_jd17k")
-animation = &"Jump"
+animation = &"Run"
+autoplay = "Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1478896587]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_ys8el")

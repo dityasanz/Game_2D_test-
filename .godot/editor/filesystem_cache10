@@ -1,20 +1,27 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771655732
+::res://::1771683786
 icon.svg::CompressedTexture2D::3558190160677884799::1771655297::1771655341::1::::<><><>0<>0<>62432bbe639d7d1d9c23e7dc7ef702d7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1771655297::0::1::::<><><>0<>0<><>::
-::res://assets/::1771655732
-::res://assets/background/::1771655714
+::res://assets/::1771683073
+::res://assets/abdur/::1771683765
+::res://assets/abdur/Texture/::1771683757
+TX Chest Animation.png::CompressedTexture2D::6955750041880560811::1633401423::1771683786::1::::<><><>0<>0<>6de5e7237926d8728f26d500ac373ed2<>res://.godot/imported/TX Chest Animation.png-54cb1d81cce283ff728f840f2d4519fd.ctex::
+TX FX Flame.png::CompressedTexture2D::1740008402524637635::1657262288::1771683786::1::::<><><>0<>0<>86e50005461d9ca6ebd93460e21c72c2<>res://.godot/imported/TX FX Flame.png-8312c2ba41db6adbef8f79c5ef166e6d.ctex::
+TX FX Torch Flame.png::CompressedTexture2D::5430507423208920252::1657090667::1771683786::1::::<><><>0<>0<>a7efaa71e919fb9e1677cfa08765c49f<>res://.godot/imported/TX FX Torch Flame.png-8f9ca85a22ecafefd80fdc37b09d5714.ctex::
+TX Tileset Ground.png::CompressedTexture2D::7085769082790122806::1679813061::1771683786::1::::<><><>0<>0<>210fbc8ab7303c0298a4f7829ce2d0f8<>res://.godot/imported/TX Tileset Ground.png-9abf2b308358c9985f899604e118c24b.ctex::
+TX Village Props.png::CompressedTexture2D::5245059832967667439::1683010186::1771683787::1::::<><><>0<>0<>47e4853e909579e6b860caf00079c65e<>res://.godot/imported/TX Village Props.png-a06c1cfcb6af07a2a140c4f74828c851.ctex::
+::res://assets/background/::1771655732
 11ebdcc531a218b1c9c5fc3711d6cd85.jpg::CompressedTexture2D::4340435661923340429::1771655297::1771655732::1::::<><><>0<>0<>66b6e8d82cd8cb390684e5ae7ccfd43c<>res://.godot/imported/11ebdcc531a218b1c9c5fc3711d6cd85.jpg-ed399e27153fde2d6279c831d39a8930.ctex::
 BG-0001.png::CompressedTexture2D::7130154150175961794::1771655297::1771655732::1::::<><><>0<>0<>f7769f636149209e7b4f23a1847f1da2<>res://.godot/imported/BG-0001.png-e440143de8388317b0203c933f41a215.ctex::
-::res://assets/character/::1771655717
+::res://assets/character/::1771681933
 KARAKTER_2D_IDLE.png::CompressedTexture2D::6247212454886299149::1771655297::1771655717::1::::<><><>0<>0<>a27edbcd774eaba1c5a91aa08e0cd175<>res://.godot/imported/KARAKTER_2D_IDLE.png-f4fc95f124272452c836ac39c89e1ef9.ctex::
 KARAKTER_2D_Jump.png::CompressedTexture2D::5736945982038180223::1771655297::1771655717::1::::<><><>0<>0<>1c60cef4566544c23ae027e9d190e09d<>res://.godot/imported/KARAKTER_2D_Jump.png-33ddf850eecc263aba68fa1352314717.ctex::
 KARAKTER_2D_Run.png::CompressedTexture2D::8441945946036492687::1771655297::1771655717::1::::<><><>0<>0<>6a0e2d8ad7303332ef51b06c01806c46<>res://.godot/imported/KARAKTER_2D_Run.png-cf937a3b9e3fa15bf7426ed2444a3f48.ctex::
-lantai-0001.png::CompressedTexture2D::1192155576881257610::1771655297::1771655717::1::::<><><>0<>0<>57c6d28d0dd496b1836c17dbd343273d<>res://.godot/imported/lantai-0001.png-bbd62610df3c26bb71b5380f2218c807.ctex::
-Sprite-0001.png::CompressedTexture2D::3193371855920314119::1771655297::1771655717::1::::<><><>0<>0<>98e23bfd78c3fddd795bcc1af7da44ae<>res://.godot/imported/Sprite-0001.png-70ad36ea2a95195538090374480ff3b9.ctex::
-::res://assets/other/::1771655709
-::res://scene/::1771655732
-game.tscn::PackedScene::7130367947687604879::1771655732::0::1::::<><><>0<>0<><>::uid://q8qvmf2bexgs::::res://assets/character/lantai-0001.png<>uid://bhoihflwglhdn::::res://scene/player.tscn<>uid://c8t5ukjnoi8ne::::res://assets/background/BG-0001.png
-player.tscn::PackedScene::2907142394833267783::1771655717::0::1::::<><><>0<>0<><>::uid://fii6qg00w5ut::::res://scripts/player.gd<>uid://cvagw86loxoin::::res://assets/character/KARAKTER_2D_IDLE.png<>uid://dsjlu7q6lg1sd::::res://assets/character/KARAKTER_2D_Run.png<>uid://cn0awro8mnvoh::::res://assets/character/KARAKTER_2D_Jump.png
-::res://scripts/::1771655676
-player.gd::GDScript::368001186588446483::1771655676::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://assets/other/::1771681933
+lantai-0001.png::CompressedTexture2D::1192155576881257610::1771655297::1771681922::1::::<><><>0<>0<>1ab224ef8e95eec95ca3d2f7ee1b1418<>res://.godot/imported/lantai-0001.png-d4b14c9db2c7973418c0c3b5e8bd494e.ctex::
+Sprite-0001.png::CompressedTexture2D::3193371855920314119::1771655297::1771681933::1::::<><><>0<>0<>db7d51ac651d2cee31bf0b8f636f4328<>res://.godot/imported/Sprite-0001.png-a2f79c6acbfe4660bf12f642a5ce8720.ctex::
+::res://scene/::1771683159
+game.tscn::PackedScene::7130367947687604879::1771683159::0::1::::<><><>0<>0<><>::uid://bhoihflwglhdn::::res://scene/player.tscn
+player.tscn::PackedScene::2907142394833267783::1771682039::0::1::::<><><>0<>0<><>::uid://fii6qg00w5ut::::res://scripts/player.gd<>uid://cvagw86loxoin::::res://assets/character/KARAKTER_2D_IDLE.png<>uid://dsjlu7q6lg1sd::::res://assets/character/KARAKTER_2D_Run.png<>uid://cn0awro8mnvoh::::res://assets/character/KARAKTER_2D_Jump.png
+::res://scripts/::1771682793
+player.gd::GDScript::368001186588446483::1771682793::0::1::::<>CharacterBody2D<><>0<>0<><>::

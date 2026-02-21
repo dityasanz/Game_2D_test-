@@ -1,0 +1,5 @@
+TileMapLayer
+CollisionShape2D
+TileMap
+Camera2D
+StaticBody2D
