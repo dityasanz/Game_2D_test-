@@ -1,9 +1,10 @@
 [gd_scene format=3 uid="uid://bhoihflwglhdn"]
 
-[ext_resource type="Script" uid="uid://fii6qg00w5ut" path="res://asset character/character_body_2d.gd" id="1_7j484"]
+[ext_resource type="Script" uid="uid://bxa5y00qrfmtt" path="res://script.gd/character_body_2d.gd" id="1_jd17k"]
 [ext_resource type="Texture2D" uid="uid://cvagw86loxoin" path="res://asset character/KARAKTER_2D_IDLE.png" id="2_7j484"]
 [ext_resource type="Texture2D" uid="uid://dsjlu7q6lg1sd" path="res://asset character/KARAKTER_2D_Run.png" id="2_awagx"]
 [ext_resource type="Texture2D" uid="uid://cn0awro8mnvoh" path="res://asset character/KARAKTER_2D_Jump.png" id="2_ys8el"]
+[ext_resource type="Texture2D" uid="uid://c5le7k0u4avfb" path="res://asset character/KARAKTER_2D_basic_attack.png" id="4_jd17k"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ys8el"]
 size = Vector2(16, 24)
@@ -31,6 +32,18 @@ region = Rect2(96, 0, 32, 32)
 [sub_resource type="AtlasTexture" id="AtlasTexture_tmg0h"]
 atlas = ExtResource("2_awagx")
 region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nmr34"]
+atlas = ExtResource("4_jd17k")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bpe75"]
+atlas = ExtResource("4_jd17k")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g5ugf"]
+atlas = ExtResource("4_jd17k")
+region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_awagx"]
 atlas = ExtResource("2_7j484")
@@ -72,6 +85,20 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_nmr34")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bpe75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g5ugf")
+}],
+"loop": false,
+"name": &"basic_attack",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_awagx")
 }, {
 "duration": 1.0,
@@ -82,8 +109,8 @@ animations = [{
 "speed": 2.0
 }]
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1092678323]
-script = ExtResource("1_7j484")
+[node name="CharacterBody2D" type="CharacterBody2D" groups=["player"] unique_id=1092678323]
+script = ExtResource("1_jd17k")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1478896587]
 position = Vector2(0, 2)
@@ -91,6 +118,8 @@ shape = SubResource("RectangleShape2D_ys8el")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1499825580]
 texture_filter = 1
-position = Vector2(-4, 0)
+position = Vector2(-1, 1)
 sprite_frames = SubResource("SpriteFrames_jd17k")
-animation = &"Jump"
+animation = &"basic_attack"
+frame = 2
+frame_progress = 1.0
