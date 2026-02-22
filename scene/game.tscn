@@ -2643,8 +2643,8 @@ texture = ExtResource("2_xwcet")
 [sub_resource type="TileSet" id="TileSet_qpk70"]
 sources/0 = SubResource("TileSetAtlasSource_xlg7c")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_p1ry8"]
-size = Vector2(34, 34)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_33cqm"]
+size = Vector2(34.75, 35.375)
 
 [node name="game" type="Node2D" unique_id=1800803366]
 
@@ -2658,9 +2658,21 @@ tile_set = SubResource("TileSet_xwcet")
 tile_map_data = PackedByteArray("AAAQAPz/AAAHAAEAAAAQAP3/AAAHAAIAAAAQAP7/AAAHAAMAAAARAPz/AAAIAAEAAAARAP3/AAAIAAIAAAARAP7/AAAIAAMAAAASAPz/AAAJAAEAAAASAP3/AAAJAAIAAAASAP7/AAAJAAMAAAATAPz/AAAKAAEAAAATAP3/AAAWACQAAAATAP7/AAAWACUAAAAYAPz/AAAHAAEAAAAYAP3/AAAHAAIAAAAYAP7/AAAHAAMAAAAZAPz/AAAIAAEAAAAZAP3/AAAIAAIAAAAZAP7/AAAIAAMAAAAaAPz/AAAJAAEAAAAaAP3/AAAJAAIAAAAaAP7/AAAJAAMAAAAbAPz/AAAKAAEAAAAbAP3/AAAKAAIAAAAbAP7/AAAKAAMAAAAiAPj/AAAHAAEAAAAiAPn/AAAHAAIAAAAiAPr/AAAHAAMAAAAjAPj/AAAIAAEAAAAjAPn/AAAIAAIAAAAjAPr/AAAIAAMAAAAkAPj/AAAJAAEAAAAkAPn/AAAJAAIAAAAkAPr/AAAJAAMAAAAlAPj/AAAKAAEAAAAlAPn/AAAWACQAAAAlAPr/AAAWACUAAAAxAPz/AAAHAAEAAAAxAP3/AAAHAAIAAAAxAP7/AAAHAAMAAAAyAPz/AAAIAAEAAAAyAP3/AAAIAAIAAAAyAP7/AAAIAAMAAAAzAPz/AAAJAAEAAAAzAP3/AAAJAAIAAAAzAP7/AAAJAAMAAAA0APz/AAAKAAEAAAA0AP3/AAAKAAIAAAA0AP7/AAAKAAMAAAAJAP3/AAAWACQAAAAJAP7/AAAWACUAAAAKAP3/AAAXACQAAAAKAP7/AAAXACUAAAALAP3/AAAYACQAAAALAP7/AAAYACUAAAAMAP3/AAAZACQAAAAMAP7/AAAZACUAAAAUAP3/AAAXACQAAAAUAP7/AAAXACUAAAAVAP3/AAAYACQAAAAVAP7/AAAYACUAAAAWAP3/AAAZACQAAAAWAP7/AAAZACUAAAAmAPn/AAAXACQAAAAmAPr/AAAXACUAAAAnAPn/AAAYACQAAAAnAPr/AAAYACUAAAAoAPn/AAAZACQAAAAoAPr/AAAZACUAAAAqAPn/AAAWACQAAAAqAPr/AAAWACUAAAArAPn/AAAXACQAAAArAPr/AAAXACUAAAAsAPn/AAAYACQAAAAsAPr/AAAYACUAAAAtAPn/AAAZACQAAAAtAPr/AAAZACUAAAA=")
 tile_set = SubResource("TileSet_qpk70")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=559362541]
-position = Vector2(287, -33)
-shape = SubResource("RectangleShape2D_p1ry8")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=163011470]
+position = Vector2(287.5, -33.5)
+shape = SubResource("RectangleShape2D_33cqm")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D" unique_id=1972640731]
+position = Vector2(416.5, -33.25)
+shape = SubResource("RectangleShape2D_33cqm")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D" unique_id=1464585472]
+position = Vector2(575.75, -97.625)
+shape = SubResource("RectangleShape2D_33cqm")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D" unique_id=567982214]
+position = Vector2(816.375, -33.3125)
+shape = SubResource("RectangleShape2D_33cqm")
 
 [node name="player" parent="." unique_id=1092678323 instance=ExtResource("2_33cqm")]
 position = Vector2(32, -32)

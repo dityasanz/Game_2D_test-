@@ -1,5 +1,6 @@
-TileMapLayer
 CollisionShape2D
+CollisionPolygon2D
+TileMapLayer
 TileMap
 Camera2D
 StaticBody2D

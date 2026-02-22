@@ -56,9 +56,9 @@ func _physics_process(delta):
 
 
 	# GRAVITY
-	if not is_on_floor():
+	if not is_on_floor() and not is_dashing:
 		velocity += get_gravity() * delta
-	else:
+	elif is_on_floor():
 		jump_count = 0
 
 
@@ -69,11 +69,13 @@ func _physics_process(delta):
 		dash_cooldown_timer = DASH_COOLDOWN
 		dash_direction = -1 if anim.flip_h else 1
 		last_afterimage_position = global_position
+		velocity.y = 0
 
 
 	# DASH MOVEMENT
 	if is_dashing:
 		velocity.x = dash_direction * DASH_SPEED
+		velocity.y = 0
 		anim.play("Dash")
 
 		if global_position.distance_to(last_afterimage_position) >= AFTERIMAGE_DISTANCE:
