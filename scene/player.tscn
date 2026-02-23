@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://fii6qg00w5ut" path="res://scripts/player.gd" id="1_7j484"]
 [ext_resource type="Texture2D" uid="uid://bhaqdj43xaf6e" path="res://assets/character/player/KARAKTER_2D_IDLE.png" id="2_ct4mp"]
+[ext_resource type="Texture2D" uid="uid://cnft82c6ukapt" path="res://assets/character/player/KARAKTER_2D_jump_down.png" id="2_s4jxa"]
 [ext_resource type="Texture2D" uid="uid://47l1sg2qmqjh" path="res://assets/character/player/KARAKTER_2D_Jump.png" id="3_s4jxa"]
 [ext_resource type="Texture2D" uid="uid://37djgp6h3o6t" path="res://assets/character/player/KARAKTER_2D_Run.png" id="4_oh5ij"]
 
@@ -60,7 +61,10 @@ animations = [{
 "name": &"Dash",
 "speed": 5.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_s4jxa")
+}],
 "loop": true,
 "name": &"Fall",
 "speed": 5.0
@@ -127,9 +131,8 @@ script = ExtResource("1_7j484")
 texture_filter = 1
 position = Vector2(-4, 0)
 sprite_frames = SubResource("SpriteFrames_jd17k")
-animation = &"Idle"
+animation = &"Fall"
 autoplay = "Idle"
-frame_progress = 0.114562765
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1478896587]
 visible = false

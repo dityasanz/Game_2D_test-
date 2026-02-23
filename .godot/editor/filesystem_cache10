@@ -1,35 +1,35 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771748215
+::res://::1771836499
 icon.svg::CompressedTexture2D::3558190160677884799::1771655297::1771655341::1::::<><><>0<>0<>62432bbe639d7d1d9c23e7dc7ef702d7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1771655297::0::1::::<><><>0<>0<><>::
-::res://assets/::1771747060
-::res://assets/abdur/::1771747060
-::res://assets/abdur/Texture/::1771747193
-TX Chest Animation.png::CompressedTexture2D::6955750041880560811::1771747060::1771747193::1::::<><><>0<>0<>6de5e7237926d8728f26d500ac373ed2<>res://.godot/imported/TX Chest Animation.png-54cb1d81cce283ff728f840f2d4519fd.ctex::
-TX FX Flame.png::CompressedTexture2D::1740008402524637635::1771747060::1771747193::1::::<><><>0<>0<>86e50005461d9ca6ebd93460e21c72c2<>res://.godot/imported/TX FX Flame.png-8312c2ba41db6adbef8f79c5ef166e6d.ctex::
-TX FX Torch Flame.png::CompressedTexture2D::5430507423208920252::1771747060::1771747193::1::::<><><>0<>0<>a7efaa71e919fb9e1677cfa08765c49f<>res://.godot/imported/TX FX Torch Flame.png-8f9ca85a22ecafefd80fdc37b09d5714.ctex::
-TX Tileset Ground.png::CompressedTexture2D::7085769082790122806::1771747060::1771747193::1::::<><><>0<>0<>210fbc8ab7303c0298a4f7829ce2d0f8<>res://.godot/imported/TX Tileset Ground.png-9abf2b308358c9985f899604e118c24b.ctex::
-TX Village Props.png::CompressedTexture2D::5245059832967667439::1771747060::1771747193::1::::<><><>0<>0<>47e4853e909579e6b860caf00079c65e<>res://.godot/imported/TX Village Props.png-a06c1cfcb6af07a2a140c4f74828c851.ctex::
+::res://assets/::1771802595
+::res://assets/abdur/::1771802595
+::res://assets/abdur/Texture/::1771813261
+TX Chest Animation.png::CompressedTexture2D::6955750041880560811::1771802595::1771813261::1::::<><><>0<>0<>6de5e7237926d8728f26d500ac373ed2<>res://.godot/imported/TX Chest Animation.png-54cb1d81cce283ff728f840f2d4519fd.ctex::
+TX FX Flame.png::CompressedTexture2D::1740008402524637635::1771802595::1771813261::1::::<><><>0<>0<>86e50005461d9ca6ebd93460e21c72c2<>res://.godot/imported/TX FX Flame.png-8312c2ba41db6adbef8f79c5ef166e6d.ctex::
+TX FX Torch Flame.png::CompressedTexture2D::5430507423208920252::1771802595::1771813261::1::::<><><>0<>0<>a7efaa71e919fb9e1677cfa08765c49f<>res://.godot/imported/TX FX Torch Flame.png-8f9ca85a22ecafefd80fdc37b09d5714.ctex::
+TX Tileset Ground.png::CompressedTexture2D::7085769082790122806::1771802595::1771813261::1::::<><><>0<>0<>210fbc8ab7303c0298a4f7829ce2d0f8<>res://.godot/imported/TX Tileset Ground.png-9abf2b308358c9985f899604e118c24b.ctex::
+TX Village Props.png::CompressedTexture2D::5245059832967667439::1771802595::1771813261::1::::<><><>0<>0<>47e4853e909579e6b860caf00079c65e<>res://.godot/imported/TX Village Props.png-a06c1cfcb6af07a2a140c4f74828c851.ctex::
 ::res://assets/background/::1771655732
 11ebdcc531a218b1c9c5fc3711d6cd85.jpg::CompressedTexture2D::4340435661923340429::1771655297::1771655732::1::::<><><>0<>0<>66b6e8d82cd8cb390684e5ae7ccfd43c<>res://.godot/imported/11ebdcc531a218b1c9c5fc3711d6cd85.jpg-ed399e27153fde2d6279c831d39a8930.ctex::
 BG-0001.png::CompressedTexture2D::7130154150175961794::1771655297::1771655732::1::::<><><>0<>0<>f7769f636149209e7b4f23a1847f1da2<>res://.godot/imported/BG-0001.png-e440143de8388317b0203c933f41a215.ctex::
-::res://assets/character/::1771747398
-::res://assets/character/enemy/::1771747452
-ENEMY_attack.png::CompressedTexture2D::8487362432289715139::1771747067::1771747452::1::::<><><>0<>0<>4aee02907ae829b5d440c32d7f392a94<>res://.godot/imported/ENEMY_attack.png-85490ada26424572760b6d256fd7e4c9.ctex::
-ENEMY_hit.png::CompressedTexture2D::3877607480569502096::1771747067::1771747452::1::::<><><>0<>0<>4fd038f21f59edb25789577d5c459c34<>res://.godot/imported/ENEMY_hit.png-8e035a2481536fa3aed06442bacedead.ctex::
-ENEMY_WALK.png::CompressedTexture2D::1057502426844206354::1771747067::1771747452::1::::<><><>0<>0<>ad3025cf457e3f3b4e65da4140035e52<>res://.godot/imported/ENEMY_WALK.png-08133ad2e9c90feb9c074b070978581f.ctex::
-Sprite-0001.png::CompressedTexture2D::8732857250377311346::1771747067::1771747452::1::::<><><>0<>0<>17a80d5ecdc51efb8ca04f54b0df26bd<>res://.godot/imported/Sprite-0001.png-c53f6bb9761547e8a120e2e5be80d65c.ctex::
-Sprite-00021.png::CompressedTexture2D::5297919797687426991::1771747067::1771747452::1::::<><><>0<>0<>537ea69213c2318d1f3b72f0b64e10c8<>res://.godot/imported/Sprite-00021.png-87b388ea8f0fbfcc5c5758b8def93b80.ctex::
-::res://assets/character/player/::1771747452
-KARAKTER_2D_basic_attack.png::CompressedTexture2D::5550922746316059438::1771747067::1771747452::1::::<><><>0<>0<>b57384b8ef66a8f2491c4c67ef863b69<>res://.godot/imported/KARAKTER_2D_basic_attack.png-9a6feb0caead59aea338e431fba733f2.ctex::
-KARAKTER_2D_IDLE.png::CompressedTexture2D::2878719937237719654::1771747067::1771747452::1::::<><><>0<>0<>aee6e40e338f4b904bbe7cdc3fbe436e<>res://.godot/imported/KARAKTER_2D_IDLE.png-edc8a9b409ac0d5ddc7f4be2a519280f.ctex::
-KARAKTER_2D_Jump.png::CompressedTexture2D::2102251827132567737::1771747067::1771747452::1::::<><><>0<>0<>fae417823dad84d3326f0af9e2e29562<>res://.godot/imported/KARAKTER_2D_Jump.png-8ab7ecb40cf38def3601d427d98d493a.ctex::
-KARAKTER_2D_jump_down.png::CompressedTexture2D::5696832200168027521::1771747067::1771747452::1::::<><><>0<>0<>c461b8762f2cb1d241ddae2c6feb3026<>res://.godot/imported/KARAKTER_2D_jump_down.png-3814ac3a85efe6ebc6cd69d48207e0f1.ctex::
-KARAKTER_2D_Run.png::CompressedTexture2D::2031546272849400409::1771747067::1771747452::1::::<><><>0<>0<>0a87ffbdaa2944b9a2a3b38d8c45df8d<>res://.godot/imported/KARAKTER_2D_Run.png-38f40c36b9736b35f23f2e6147e6c2e5.ctex::
-::res://assets/other/::1771747421
-lantai-0001.png::CompressedTexture2D::1192155576881257610::1771747060::1771747193::1::::<><><>0<>0<>1ab224ef8e95eec95ca3d2f7ee1b1418<>res://.godot/imported/lantai-0001.png-d4b14c9db2c7973418c0c3b5e8bd494e.ctex::
-::res://scene/::1771748015
-game.tscn::PackedScene::7130367947687604879::1771748015::0::1::::<><><>0<>0<><>::uid://c77nt1jh30t7c::::res://assets/abdur/Texture/TX Tileset Ground.png<>uid://bhoihflwglhdn::::res://scene/player.tscn<>uid://cgy0msyr6jvyt::::res://assets/abdur/Texture/TX Village Props.png
-player.tscn::PackedScene::2907142394833267783::1771747621::0::1::::<><><>0<>0<><>::uid://fii6qg00w5ut::::res://scripts/player.gd<>uid://bhaqdj43xaf6e::::res://assets/character/player/KARAKTER_2D_IDLE.png<>uid://47l1sg2qmqjh::::res://assets/character/player/KARAKTER_2D_Jump.png<>uid://37djgp6h3o6t::::res://assets/character/player/KARAKTER_2D_Run.png
-::res://scripts/::1771748151
-player.gd::GDScript::368001186588446483::1771748151::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://assets/character/::1771802595
+::res://assets/character/enemy/::1771813261
+ENEMY_attack.png::CompressedTexture2D::8487362432289715139::1771802595::1771813261::1::::<><><>0<>0<>4aee02907ae829b5d440c32d7f392a94<>res://.godot/imported/ENEMY_attack.png-85490ada26424572760b6d256fd7e4c9.ctex::
+ENEMY_hit.png::CompressedTexture2D::3877607480569502096::1771802595::1771813261::1::::<><><>0<>0<>4fd038f21f59edb25789577d5c459c34<>res://.godot/imported/ENEMY_hit.png-8e035a2481536fa3aed06442bacedead.ctex::
+ENEMY_WALK.png::CompressedTexture2D::1057502426844206354::1771802595::1771813261::1::::<><><>0<>0<>ad3025cf457e3f3b4e65da4140035e52<>res://.godot/imported/ENEMY_WALK.png-08133ad2e9c90feb9c074b070978581f.ctex::
+Sprite-0001.png::CompressedTexture2D::8732857250377311346::1771802595::1771813261::1::::<><><>0<>0<>17a80d5ecdc51efb8ca04f54b0df26bd<>res://.godot/imported/Sprite-0001.png-c53f6bb9761547e8a120e2e5be80d65c.ctex::
+Sprite-00021.png::CompressedTexture2D::5297919797687426991::1771802595::1771813261::1::::<><><>0<>0<>537ea69213c2318d1f3b72f0b64e10c8<>res://.godot/imported/Sprite-00021.png-87b388ea8f0fbfcc5c5758b8def93b80.ctex::
+::res://assets/character/player/::1771813261
+KARAKTER_2D_basic_attack.png::CompressedTexture2D::5550922746316059438::1771802595::1771813261::1::::<><><>0<>0<>b57384b8ef66a8f2491c4c67ef863b69<>res://.godot/imported/KARAKTER_2D_basic_attack.png-9a6feb0caead59aea338e431fba733f2.ctex::
+KARAKTER_2D_IDLE.png::CompressedTexture2D::2878719937237719654::1771802595::1771813261::1::::<><><>0<>0<>aee6e40e338f4b904bbe7cdc3fbe436e<>res://.godot/imported/KARAKTER_2D_IDLE.png-edc8a9b409ac0d5ddc7f4be2a519280f.ctex::
+KARAKTER_2D_Jump.png::CompressedTexture2D::2102251827132567737::1771802595::1771813261::1::::<><><>0<>0<>fae417823dad84d3326f0af9e2e29562<>res://.godot/imported/KARAKTER_2D_Jump.png-8ab7ecb40cf38def3601d427d98d493a.ctex::
+KARAKTER_2D_jump_down.png::CompressedTexture2D::5696832200168027521::1771802595::1771813261::1::::<><><>0<>0<>c461b8762f2cb1d241ddae2c6feb3026<>res://.godot/imported/KARAKTER_2D_jump_down.png-3814ac3a85efe6ebc6cd69d48207e0f1.ctex::
+KARAKTER_2D_Run.png::CompressedTexture2D::2031546272849400409::1771802595::1771813261::1::::<><><>0<>0<>0a87ffbdaa2944b9a2a3b38d8c45df8d<>res://.godot/imported/KARAKTER_2D_Run.png-38f40c36b9736b35f23f2e6147e6c2e5.ctex::
+::res://assets/other/::1771813261
+lantai-0001.png::CompressedTexture2D::1192155576881257610::1771802595::1771813261::1::::<><><>0<>0<>1ab224ef8e95eec95ca3d2f7ee1b1418<>res://.godot/imported/lantai-0001.png-d4b14c9db2c7973418c0c3b5e8bd494e.ctex::
+::res://scene/::1771819999
+game.tscn::PackedScene::7130367947687604879::1771802595::0::1::::<><><>0<>0<><>::uid://c77nt1jh30t7c::::res://assets/abdur/Texture/TX Tileset Ground.png<>uid://bhoihflwglhdn::::res://scene/player.tscn<>uid://cgy0msyr6jvyt::::res://assets/abdur/Texture/TX Village Props.png
+player.tscn::PackedScene::2907142394833267783::1771819999::0::1::::<><><>0<>0<><>::uid://fii6qg00w5ut::::res://scripts/player.gd<>uid://bhaqdj43xaf6e::::res://assets/character/player/KARAKTER_2D_IDLE.png<>uid://cnft82c6ukapt::::res://assets/character/player/KARAKTER_2D_jump_down.png<>uid://47l1sg2qmqjh::::res://assets/character/player/KARAKTER_2D_Jump.png<>uid://37djgp6h3o6t::::res://assets/character/player/KARAKTER_2D_Run.png
+::res://scripts/::1771802595
+player.gd::GDScript::368001186588446483::1771802595::0::1::::<>CharacterBody2D<><>0<>0<><>::
