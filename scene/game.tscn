@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://q8qvmf2bexgs" path="res://asset character/lantai-0001.png" id="1_dbls1"]
 [ext_resource type="PackedScene" uid="uid://bhoihflwglhdn" path="res://asset character/character_body_2d.tscn" id="2_33cqm"]
 [ext_resource type="Texture2D" uid="uid://c8t5ukjnoi8ne" path="res://asset character/BG-0001.png" id="2_xwcet"]
+[ext_resource type="Theme" path="res://theme/minecraft_ui_theme.tres" id="3_mc_theme"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_xwcet"]
 
@@ -96,3 +97,16 @@ position = Vector2(-0.7209892, -4.789337)
 rotation = 3.1415927
 scale = Vector2(8316.265, 0.2659771)
 zoom = Vector2(2.01, 2.01)
+
+[node name="DashCooldownUI" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="DashCooldownLabel" type="Label" parent="DashCooldownUI"]
+visible = false
+theme = ExtResource("3_mc_theme")
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 240.0
+offset_bottom = 36.0
+theme_override_colors/font_color = Color(0.45, 0.92, 1, 1)
+text = "Dash Cooldown: 0.0s"
